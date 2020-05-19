@@ -1,0 +1,25 @@
+<div class="container">
+    <form [formGroup]="regForm">
+        <div class="card col-6">
+            <div class="form-group">
+                <label for="user">User Name</label>
+                <input type="text" formControlName="username" class="form-control">
+
+                <label for="email">Email</label>
+                <input type="text" formControlName="email" class="form-control">
+
+                <label for="pass">Password</label>
+                <input type="text" formControlName="password" class="form-control">
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <a href="#exist-user">Exist User</a>
+                </div>
+                <div class="col-6 btn-1">
+                    <button type="button" (click)="register()">Register</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
