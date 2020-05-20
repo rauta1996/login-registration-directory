@@ -1,5 +1,5 @@
 .card-container{
-    width: 350px;
+    width: 650px;
     height: 300px;
     padding: 120px;
     background-color: white;
@@ -8,8 +8,8 @@
     margin-right: auto;
 }
 .center-card{
-    width: 300px;
-    height: 200px;
+    width: 310px;
+    height: 250px;
     padding: 20px;
     margin-top: auto;
     margin-left: auto;
@@ -22,8 +22,22 @@
     height: 20px;
     padding-top:2px;
     margin-bottom: 5px;
+    display: flex;  
 }
 .footer-btn{
     display: flex;
     justify-content: space-between;
 }
+button{
+    width: 80px;
+    height: 26px;
+}
+.fill-card{
+    width: 220px;
+    height: 300px;
+    padding: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto; 
+  }

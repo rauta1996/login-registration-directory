@@ -1,28 +1,39 @@
 .card-container{
-    width: 650px;
-    height: 300px;
-    padding: 110px;
-    background-color: white;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 650px;
+  height: 300px;
+  padding: 120px;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .center-card{
-    width: 400px;
-    height: 320px;    
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    border: 1px solid black;    
+  width: 350px;
+  height: 250px;
+  padding: 20px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border: 1px solid black;       
 }
-.input-area{
+.input-style{
   width: 100%;
-  padding-top: 10px;
-  
-
+  height: 20px;
+  padding-top:2px;
+  margin-bottom: 5px;
+  display: flex;  
 }
 .footer-btn{
   display: flex;
   justify-content: space-between;
+}
+.fill-card{
+  width: 200px;
+  height: 300px;
+  padding: 40px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto; 
 }

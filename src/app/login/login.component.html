@@ -1,18 +1,21 @@
 <form [formGroup]="regForm">
     <div class="card-container">
         <div class="center-card">
-            <div>
-                <label for="email">Email</label>
-                <input type="text" formControlName="email" class="input-area">
-                <br>
-                <label for="pass">Password</label>
-                <input type="text" formControlName="password" class="input-area">
-            </div><br>
+            <div class="fill-card">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" formControlName="email" class="input-style">
+                    <br>
+                    <label for="pass">Password</label>
+                    <input type="text" formControlName="password" class="input-style">
+                </div><br>
 
-            <div class="footer-btn">
-                <a href="#new-user">New User?</a>
-                <button type="button" (click)="login()">Login</button>
+                <div class="footer-btn">
+                    <a href="#new-user" style="text-decoration: none;">New User?</a>
+                    <button type="button" (click)="login()">Login</button>
+                </div>
             </div>
+
         </div>
     </div>
 </form>

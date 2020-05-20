@@ -1,20 +1,23 @@
 <form [formGroup]="regForm">
     <div class="card-container">
         <div class="center-card">
-            <div>
-                <label for="user">User Name</label>
-                <input type="text" formControlName="username" class="input-style">
-                <br>
-                <label for="email">Email</label>
-                <input type="text" formControlName="email" class="input-style">
-                <br>               
-                <label for="pass">Password</label>
-                <input type="text" formControlName="password" class="input-style">
-            </div><br>
-            <div class="footer-btn">
-                <a href="#exist-user">Exist User</a>
-                <button type="button" (click)="register()">Register</button>
+            <div class="fill-card">
+                <div>
+                    <label for="user">User Name</label>
+                    <input type="text" formControlName="username" class="input-style">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="text" formControlName="email" class="input-style">
+                    <br>
+                    <label for="pass">Password</label>
+                    <input type="text" formControlName="password" class="input-style">
+                </div><br>
+                <div class="footer-btn">
+                    <a href="#exist-user" style="text-decoration: none;">Exist User</a>
+                    <button type="button" (click)="register()">Register</button>
+                </div>
             </div>
+
         </div>
     </div>
 </form>
