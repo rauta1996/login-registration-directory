@@ -1,20 +1,28 @@
-.container{
-    width: 850px;
-    height: 500px;
+.card-container{
+    width: 650px;
+    height: 300px;
     padding: 110px;
     background-color: white;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.card{
-    position: relative;
-    padding: 20px;
+.center-card{
+    width: 400px;
+    height: 320px;    
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
     border: 1px solid black;    
 }
-button{
-    width: 80px;
-    height: 35px;
+.input-area{
+  width: 100%;
+  padding-top: 10px;
+  
+
+}
+.footer-btn{
+  display: flex;
+  justify-content: space-between;
 }
