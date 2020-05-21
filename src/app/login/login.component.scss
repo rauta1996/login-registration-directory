@@ -8,7 +8,7 @@
   margin-right: auto;
 }
 .center-card{
-  width: 350px;
+  width: 320px;
   height: 250px;
   padding: 20px;
   margin-top: auto;
@@ -16,6 +16,15 @@
   margin-right: auto;
   margin-bottom: auto;
   border: 1px solid black;       
+}
+.card-decor{
+  width: 220px;
+  height: 300px;
+  padding: 40px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto; 
 }
 .input-style{
   width: 100%;
@@ -28,12 +37,8 @@
   display: flex;
   justify-content: space-between;
 }
-.fill-card{
-  width: 200px;
-  height: 300px;
-  padding: 40px;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto; 
+
+button{
+  width: 80px;
+  height: 26px; 
 }
