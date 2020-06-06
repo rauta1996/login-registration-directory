@@ -1,26 +1,22 @@
+
 .navbar{
     position: fixed;
+    background-color:lightgrey;
     top: 0;
-    width: 850px;
+    width: 800px;
     height: 50px;
     margin-left: auto;
-    background-color: grey;
-}
-#menu{
-    display: flex;
-    justify-content: space-between;
+    margin-right: auto;
 }
 .sidebar{
+    left: 0;
     width: 180px;
     height: 600px;
-    left: 0;
-    margin-left: 0;
-    background-color: hotpink;
+    background-color: lightpink;
 }
-#feed{
-    width: 670px;
-    height: 600px;
-    background-color: ivory;
+.feed{
     margin-left: 180px;
-    top: 0;
+    width: 620px;
+    height: 600px;
+    background-color: lightslategray;
 }
