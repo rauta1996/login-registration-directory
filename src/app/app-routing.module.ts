@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
-import { HomeDashboardComponent } from './home-dashboard/home-dashboard.component';
+import { HomeComponent } from "./home/home.component";
 
 
 const routes: Routes = [
   {
     path:'',
-    redirectTo:'home-dashboard',
+    redirectTo:'registration',
     pathMatch:'full'
   },
   {
@@ -20,8 +20,8 @@ const routes: Routes = [
     component:LoginComponent
   },
   {
-    path:'home-dashboard',
-    component:HomeDashboardComponent
+    path:'home',
+    component:HomeComponent
   }
 ];
 

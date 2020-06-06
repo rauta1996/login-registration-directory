@@ -1,0 +1,24 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 850px;
+    height: 50px;
+    margin-left: auto;
+    background-color: grey;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar{
+    width: 180px;
+    height: 600px;
+    left: 0;
+    margin-left: 0;
+    background-color: hotpink;
+}
+.feed{
+    width: 670px;
+    height: 600px;
+    background-color: ivory;
+}

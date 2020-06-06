@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
+import { stringify } from 'querystring';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-registration',
@@ -20,5 +22,8 @@ export class RegistrationComponent implements OnInit {
       password:''
     })
   }
-
+  register(data){
+    localStorage.setItem("Data",stringify(this.regForm.value));
+    this.regForm.reset(data);
+  }
 }
